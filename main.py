@@ -150,8 +150,8 @@ while running:
             if event.key == pygame.K_SPACE:
                 # 22. if false to ensure the bullet always starts from the spaceship x
                 if check is False:
-                    # laserSound = mixer.Sound('laser.mp3')
-                    # laserSound.play()
+                    ls = mixer.Sound('lazer2.mp3')
+                    ls.play()
                     check = True
                     bulletX = spaceshipX + 17
 
